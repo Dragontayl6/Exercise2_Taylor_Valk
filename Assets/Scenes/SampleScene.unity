@@ -610,7 +610,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.014404392, z: -0, w: 0.9998963}
-  m_LocalPosition: {x: 1.28, y: 5.95, z: -31.09}
+  m_LocalPosition: {x: 1.35, y: 5.79, z: -33.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -665,7 +665,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8775084413208550781, guid: ad8fd45dfcc7b3b4ca9fe3014efbf6c7, type: 3}
   m_PrefabInstance: {fileID: 8658904157786238347}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &332348233
+--- !u!114 &332348235
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -674,9 +674,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 332348231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29d3c993757bee94aa598d7223161e9a, type: 3}
+  m_Script: {fileID: 11500000, guid: 55f6a29f49b2c8946963d07d76c6480c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CarTester
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  movespeed: 10
+  rotationSpeed: 5
 --- !u!1 &402148562
 GameObject:
   m_ObjectHideFlags: 0
@@ -4760,7 +4762,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8775084413208550781, guid: ad8fd45dfcc7b3b4ca9fe3014efbf6c7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 332348233}
+      addedObject: {fileID: 332348235}
   m_SourcePrefab: {fileID: 100100000, guid: ad8fd45dfcc7b3b4ca9fe3014efbf6c7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
